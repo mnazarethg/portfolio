@@ -1,0 +1,49 @@
+@keyframes telonPageAnimation {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes levantarTelon {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .menuPage {
+    background-color: blue; 
+    height: 100vh; 
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .menuPageDown {
+    animation: telonPageAnimation 0.5s ease-out forwards;
+  }
+  
+  .menuPageUp {
+    animation: levantarTelon 0.5s ease-out forwards;
+    position: relative; 
+    z-index: 10;
+  }
+  .initialHide {
+    display: none;
+  }
+  .nombreContainer {
+    position: absolute;
+    top: 20%; /* Ajusta este valor según necesites */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
