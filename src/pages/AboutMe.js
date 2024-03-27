@@ -16,7 +16,7 @@ function AboutMe() {
     <>
     <div className={`menuPage ${telonSubiendo ? 'menuPageUp' : ''}`}>
     </div>
-    <div className="nombreContainer" style={{visibility: telonSubiendo ? 'visible' : 'hidden'}}>
+    <div className="content-page" style={{visibility: telonSubiendo ? 'visible' : 'hidden'}}>
       <h1>MARIA</h1>
     </div>
     </>

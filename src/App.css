@@ -7,12 +7,12 @@
   padding: 40px; 
   cursor: pointer; 
   font-size: 20px;
-  font-weight: bold;
+  font-family: 'Roboto';
   text-decoration: none;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto';
 }
 
 .background-image {

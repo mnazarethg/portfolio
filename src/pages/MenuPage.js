@@ -14,13 +14,20 @@ const MenuPage = () => {
   }, []);
 
   return (
-    <>
+    <>    
       <div className={`menuPage ${telonBajado ? 'menuPageDown' : 'initialHide'}`} >
-        <ul>
-          <li><Link to="/AboutMe">Sobre Mí</Link></li>
-          <li><Link to="/Proyectos">Proyectos</Link></li>
-          <li><Link to="/Contacto">Contacto</Link></li>
-        </ul>
+      <Link className="menu-span" to="/">CERRAR</Link>
+        <div>
+          <Link className='menuOptions' to="/AboutMe">Sobre Mí</Link>
+          <br></br>
+          <Link className='menuOptions' to="/Proyectos">Proyectos</Link>
+          <br></br>
+          <Link className='menuOptions' to="/Contacto">Contacto</Link>
+        </div>
+        <div className="contactInfo">
+          <p>mnazarethg@gmail.com</p>
+          <p>+34675148483</p>
+        </div>
       </div>
     </>
   );

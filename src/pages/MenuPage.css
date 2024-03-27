@@ -26,6 +26,14 @@
     justify-content: left;
     align-items: center;
   }
+  .menuOptions {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Roboto';
+
+  }
   
   .menuPageDown {
     animation: telonPageAnimation 0.5s ease-out forwards;
@@ -39,11 +47,24 @@
   .initialHide {
     display: none;
   }
-  .nombreContainer {
+  .content-page {
     position: absolute;
-    top: 20%; /* Ajusta este valor según necesites */
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
   }
 
+  .contactInfo {
+    position: absolute;
+    bottom: 10%;
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+  }
+  
+  .contactInfo p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+  }
