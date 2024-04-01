@@ -1,5 +1,6 @@
 import React from 'react';
 import backgroundImage from '../assets/code.png';
+import '../stylesheets/PrincipalPage.css';
 
 function PrincipalPage() {
     return (

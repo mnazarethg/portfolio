@@ -1,15 +1,14 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import MenuPage from './pages/MenuPage';
-import AboutMe from './pages/AboutMe';
-import Proyectos from './pages/Proyectos';
-import Contacto from './pages/Contact';
+import MenuPage from './components/MenuPage';
+import AboutMe from './components/AboutMe';
+import Proyectos from './components/Proyectos';
+import Contacto from './components/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import PrincipalPage from './pages/PrincipalPage';
-
+import PrincipalPage from './components/PrincipalPage';
 
 function App() {
+
   return (
     <>
     <Router>

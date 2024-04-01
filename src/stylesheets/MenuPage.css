@@ -1,4 +1,9 @@
-@keyframes telonPageAnimation {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @keyframes bajarTelon {
     from {
       transform: translateY(-100%);
       opacity: 0;
@@ -12,6 +17,7 @@
   @keyframes levantarTelon {
     from {
       transform: translateY(0);
+      
     }
     to {
       transform: translateY(-100%);
@@ -26,17 +32,44 @@
     justify-content: left;
     align-items: center;
   }
+
+  .menu-span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white; 
+    padding: 40px; 
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-decoration: none;
+  }
+
+  .menu-span-blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: blue; 
+    padding: 40px; 
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-decoration: none;
+  }
+
+  
   .menuOptions {
     font-size: 50px;
     color: white;
     text-decoration: none;
     margin-left: 50px;
     font-family: 'Roboto';
-
   }
   
   .menuPageDown {
-    animation: telonPageAnimation 0.5s ease-out forwards;
+    animation: bajarTelon 0.5s ease-out forwards;
+  }
+  
+  .initialHide {
+    display: none;
   }
   
   .menuPageUp {
@@ -44,27 +77,19 @@
     position: relative; 
     z-index: 10;
   }
-  .initialHide {
-    display: none;
-  }
-  .content-page {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-  }
 
   .contactInfo {
     position: absolute;
-    bottom: 10%;
+    bottom: 30px;
     display: flex; 
     justify-content: center; 
+    align-items: center;
     width: 100%; 
   }
   
-  .contactInfo p {
+  .contactInfo a {
     color: white;
     font-size: 20px;
     font-family: 'Roboto';
+    margin: 10px;
   }

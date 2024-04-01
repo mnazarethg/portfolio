@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import '../App.css';
+import '../stylesheets/MenuPage.css';
 
 function Header() {
-  const location = useLocation();
+    const location = useLocation();
 
+    const linkClassName = location.pathname === '/AboutMe' ? 'menu-span-blue' : 'menu-span';
+  
   return (
     <nav>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"></link>
-        <Link className="menu-span" to="/MenuPage">MENU</Link>
+         <Link className={linkClassName} to="/MenuPage">MENU</Link>
    
     </nav>
   );

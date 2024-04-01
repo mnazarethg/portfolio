@@ -1,0 +1,83 @@
+.container-about-me {
+  position: absolute; /* O 'absolute', dependiendo de tu diseño */
+  top: 0px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10%;
+  margin: 10%;
+  justify-content: space-between;
+}
+
+.container-about-me > div {
+  width: 50%; /* Asigna a cada div un ancho del 50% */
+}
+
+.photo {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  border-radius: 50%;
+  margin-top: 30px;
+  align-items: center;
+}
+
+h1 {
+  color: blue;
+  font-weight: light;
+}
+
+h2 {
+  color: purple;
+  font-weight: lighter;
+}
+
+@keyframes moveLogos {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.tecnology {
+  width: 12%;
+  margin: 3%;
+  animation: moveLogos 3s infinite; 
+  display: inline-block; /* Añade flexbox para centrar el contenido */
+  vertical-align: middle;
+}
+
+.button-cv {
+  padding: 10px 20px;
+  margin-top: 50px;
+  background-color: blue; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  font-size: 1.5rem; 
+  transition: background-color 0.3s, transform 0.3s; 
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewport="0 0 48 48" style="fill:purple"><circle cx="24" cy="24" r="14"/></svg>'), auto;
+}
+
+.button-cv:hover {
+  background-color: blue; /* Color de fondo al pasar el mouse */
+  transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
+}
+
+.button-cv:focus {
+  outline: none; /* Elimina el contorno al hacer clic */
+}
