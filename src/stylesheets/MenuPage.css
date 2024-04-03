@@ -40,7 +40,6 @@
     color: white; 
     padding: 40px; 
     font-size: 20px;
-    font-family: 'Roboto';
     text-decoration: none;
   }
 
@@ -51,7 +50,6 @@
     color: blue; 
     padding: 40px; 
     font-size: 20px;
-    font-family: 'Roboto';
     text-decoration: none;
   }
 
@@ -61,7 +59,6 @@
     color: white;
     text-decoration: none;
     margin-left: 50px;
-    font-family: 'Roboto';
   }
   
   .menuPageDown {
@@ -90,6 +87,5 @@
   .contactInfo a {
     color: white;
     font-size: 20px;
-    font-family: 'Roboto';
     margin: 10px;
   }

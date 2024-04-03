@@ -31,7 +31,7 @@ const MenuPage = () => {
         <div className='container'>
           <Link className='menuOptions' to='/AboutMe'>Sobre Mí</Link>
           <br></br>
-          <Link className='menuOptions' to='/Proyectos'>Proyectos</Link>
+          <Link className='menuOptions' to='/Projects'>Proyectos</Link>
           <br></br>
           <Link className='menuOptions' to='/Contacto'>Contacto</Link>
         </div>

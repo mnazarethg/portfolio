@@ -3,7 +3,7 @@
  body {
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewport="0 0 24 24" style="fill:purple;"><circle cx="12" cy="12" r="6"/></svg>'), auto;
     font-family: 'Hedvig Letters Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 35px;
     letter-spacing: 1.5px;
     line-height: 1.6; 
   }

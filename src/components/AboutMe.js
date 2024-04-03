@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import '../stylesheets/AboutMe.css';
 import Header from './Header';
-import photo from '../assets/photo.jpg';
+import photo from '../assets/photo.jpeg';
 import reactLogo from '../assets/react.png';
 import reactNativeLogo from '../assets/react_native.png';
 import css from '../assets/css.png';
@@ -34,38 +35,38 @@ function AboutMe() {
     <div className={`menuPage ${telonSubiendo ? 'menuPageUp' : ''}`}>
     </div>
     <div style={{visibility: telonSubiendo ? 'visible' : 'hidden'}}>
-      <div className='container-about-me' style={{ backgroundColor: 'white', opacity: 1, zIndex: 1 }}>
+      <div className='container-about-me'>
         <div >
           <h1>María Nazareth Monti Gimenez.</h1>
-          <h2>Compromiso por el desarrollo de soluciones tecnológicas integrales.</h2>
           <img className='photo' src={photo} alt="María Nazareth Monti Gimenez" />
-          <div>
-            <h4>Tecnologías:</h4>
+          <div>  
             <div >
-              <img className='tecnology' src={reactLogo} alt="React" />
-              <img className='tecnology' src={reactNativeLogo} alt="React Native" />
-              <img className='tecnology' src={css} alt="CSS" />
-              <img className='tecnology' src={express} alt="Express" />
-              <img className='tecnology' src={html} alt="HTML" />
-              <img className='tecnology' src={javascript} alt="Java Script" />
-              <img className='tecnology' src={mongo} alt="Mongo" />
-              <img className='tecnology' src={node} alt="Node" />
-              <img className='tecnology' src={odoo} alt="Odoo" />
-              <img className='tecnology' src={python} alt="Python" />
-            </div>
-            <div className='container'>
-              <button className="button-cv">DESCARGAR CV</button>
+              <Link to='/' className="links">CURRICULUM VITAE</Link>
             </div>
           </div>
+          <div >
+            <h4>Tecnologias</h4>
+            <img className='technology' src={reactLogo} alt="React" />
+            <img className='technology' src={reactNativeLogo} alt="React Native" />
+            <img className='technology' src={css} alt="CSS" />
+            <img className='technology' src={express} alt="Express" />
+            <img className='technology' src={html} alt="HTML" />
+            <img className='technology' src={javascript} alt="Java Script" />
+            <img className='technology' src={mongo} alt="Mongo" />
+            <img className='technology' src={node} alt="Node" />
+            <img className='technology' src={odoo} alt="Odoo" />
+            <img className='technology' src={python} alt="Python" />
+          </div>
+          
         </div>
-        <div style={{ zIndex: 10, backgroundColor: 'white', opacity: 1 }}>
-          <p>A lo largo de mi trayectoria profesional, he tenido el privilegio de contribuir al desarrollo de soluciones innovadoras en diversos ámbitos. En este camino, me he enfrentado a diversos desafíos que me han permitido desarrollar habilidades sólidas en resolución de problemas y comunicación efectiva.</p>
+        <div >
           <p>Mi interés por la programación comenzó en el ámbito académico, en la Universidad de Granada, donde adquirí conocimientos en lenguajes orientados a analítica para la investigación y la ciencia. Posteriormente, en Nanobytes, tuve la oportunidad de fortalecer estas habilidades en una empresa tecnológica.</p>
           <p>En mi rol actual, desarrollo de aplicaciones multiplataforma; a partir de los requerimientos del diseño UX/UI, transformando ideas en soluciones tangibles.</p>
-          <p>Mi compromiso es continuar creciendo profesionalmente y a continuar aportando valor a cada proyecto en el que participo.</p>
-        </div>
+        </div> 
       </div>
     </div>
+
+ 
     </>
   );
 }

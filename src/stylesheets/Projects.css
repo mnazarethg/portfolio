@@ -1,0 +1,18 @@
+.projects-grid {
+    position: absolute; 
+    display: flex;
+    flex-wrap: wrap;
+    top: 0px; 
+    margin: 10%;
+    width: 80%; 
+    gap: 3%; 
+}
+
+.project-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide cada fila en dos columnas */
+    gap: 8%; /* Espacio entre las columnas */
+    align-items: flex-start; 
+    padding: 20px 0; /* Espacio vertical dentro de cada fila */
+}
+
