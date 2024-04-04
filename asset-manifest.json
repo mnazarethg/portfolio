@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4679be66.css",
+    "main.js": "/portfolio/static/js/main.89901b51.js",
+    "static/media/back_home.mp4": "/portfolio/static/media/back_home.253e75b66bf0bb4c572f.mp4",
+    "static/media/partners_odoo.mp4": "/portfolio/static/media/partners_odoo.25b0c3f29b7f33f830d0.mp4",
+    "static/media/code.png": "/portfolio/static/media/code.f052be567d4050d93225.png",
+    "static/media/react.png": "/portfolio/static/media/react.1053175f7a6deccca81e.png",
+    "static/media/photo.jpeg": "/portfolio/static/media/photo.6e3ca79da87b391932ab.jpeg",
+    "static/media/python.png": "/portfolio/static/media/python.743e6469b22ba1042a0a.png",
+    "static/media/back_home.png": "/portfolio/static/media/back_home.ddac1c925c4c784fbdab.png",
+    "static/media/node.png": "/portfolio/static/media/node.6be51cdc790969067575.png",
+    "static/media/mongo.png": "/portfolio/static/media/mongo.dcd2b508e4da42780822.png",
+    "static/media/express.png": "/portfolio/static/media/express.9db9db2be89be51ed21d.png",
+    "static/media/react_native.png": "/portfolio/static/media/react_native.10b384fcdc4e950ba994.png",
+    "static/media/css.png": "/portfolio/static/media/css.e4095f551bb721112f84.png",
+    "static/media/odoo.png": "/portfolio/static/media/odoo.2f39afd927e3b890c7df.png",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio/index.html",
+    "main.4679be66.css.map": "/portfolio/static/css/main.4679be66.css.map",
+    "main.89901b51.js.map": "/portfolio/static/js/main.89901b51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4679be66.css",
+    "static/js/main.89901b51.js"
+  ]
+}
