@@ -14,8 +14,8 @@
 
 .photo {
   display: block; 
-  width: 90%;
-  margin-top: 30%;
+  width: 100%;
+  margin-top: 20%;
 }
 
 h1 {
@@ -51,8 +51,6 @@ h1 {
 
 .links {
   color: blue;
-  padding: 40px;
   font-size: 20px;
-  font-family: 'Hedvig Letters Sans', sans-serif;
   text-decoration: none;
 }

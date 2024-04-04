@@ -16,3 +16,10 @@
     padding: 20px 0; /* Espacio vertical dentro de cada fila */
 }
 
+.container-links {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+

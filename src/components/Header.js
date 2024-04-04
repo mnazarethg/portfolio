@@ -4,7 +4,7 @@ import '../stylesheets/MenuPage.css';
 function Header() {
     const location = useLocation();
 
-    const linkClassName = (location.pathname === '/AboutMe' || location.pathname === '/Projects') ? 'menu-span-blue' : 'menu-span';
+    const linkClassName = (location.pathname === '/' || location.pathname === '/MenuPage') ? 'menu-span' : 'menu-span-blue';
   
   return (
     <nav>

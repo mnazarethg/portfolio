@@ -1,0 +1,15 @@
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura del contenedor al 100% del viewport */
+  }
+  
+  .odoo-partner {
+    width: 100%;
+  }
+  
+  .backhome {
+    width: 50%;
+  }
