@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import '../stylesheets/AboutMe.css'; 
 import '../stylesheets/Projects.css'; 
 import Odoo from '../assets/odoo.png';
-import backHomeVideo from '../assets/back_home.mp4'; // Importa el video de Back Home
-import partnersOdooVideo from '../assets/partners_odoo.mp4'; // Importa el video de Partners de Odoo
+import backHomeVideo from '../assets/back_home.mp4'; 
+import backHomeVideo2 from '../assets/back_home2.mp4'; 
+import partnersOdooVideo from '../assets/partners_odoo.mp4'; 
 import BackHome from '../assets/back_home.png';
 import Header from './Header'; 
 import Video from './Video'
@@ -33,7 +34,7 @@ function Projects() {
         "Entre las tecnologias utilizadas en el backend se encuentran Node.js, como entorno de ejecución para el servidor, MongoDB (base de datos noSQL), Mongoose para la modelación de los datos y Express como framework principal para crear el servidor web.",
       ],
       repository: "https://github.com/mnazarethg/BackHome",
-      project: backHomeVideo,
+      project: [backHomeVideo, backHomeVideo2]
     },
 
     {
@@ -68,7 +69,7 @@ function Projects() {
               <a className='links' href={proyecto.repository} target="_blank" rel="noopener noreferrer">REPOSITORIO</a>
               </div>
               <div className='container-links'>
-                <Link className='links' to={`/project/${encodeURIComponent(proyecto.id)}`}>PROYECTO</Link>
+                <Link className='links' to={`/project/${encodeURIComponent(proyecto.id)}`}>VIDEOS</Link>
                 </div>
             </div>
             <div>
