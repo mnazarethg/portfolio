@@ -20,14 +20,14 @@ const MenuPage = () => {
     setTelonSubiendo(true);
 
     setTimeout(() => {
-      navigate('/'); 
+      navigate('/portfolio'); 
     }, 300); 
   };
 
   return (
     <>    
         <div className={`menuPage ${telonBajado ? 'menuPageDown' : 'initialHide'} ${telonSubiendo ? 'menuPageUp' : ''}`} >
-        <Link className='menu-span' to="#" onClick={handleCloseClick}>CERRAR</Link>
+        <Link className='menu-span' to='/portfolio' onClick={handleCloseClick}>CERRAR</Link>
         <div className='container'>
           <Link className='menuOptions' to='/AboutMe'>Sobre Mí</Link>
           <br></br>
